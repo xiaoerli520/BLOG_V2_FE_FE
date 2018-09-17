@@ -1,0 +1,47 @@
+
+.normal {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 100%;
+  order: 1;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  order: 2;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.pagi {
+  display: flex;
+  display: -webkit-flex;
+  order: 3;
+}
+
+.item {
+  float: left;
+  margin: 10px 20px 10px 20px;
+}
+
+
+
+
+
+

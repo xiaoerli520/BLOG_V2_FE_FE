@@ -1,0 +1,24 @@
+
+.normal {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  font-family: "宋体";
+
+  order: 1;
+}
+
+.cal {
+  margin-top: 50px;
+  order: 2;
+}

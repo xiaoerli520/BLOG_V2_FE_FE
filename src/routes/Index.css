@@ -1,0 +1,36 @@
+
+.normal {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width:50%;
+  height: 200px;
+  order: 2;
+  border: 1px solid;
+}
+.fontend {
+  width: 50%;
+  height: 200px;
+  order: 1;
+  border: 1px solid;
+}
+
+.backend {
+  width: 50%;
+  height: 200px;
+  order: 3;
+  border: 1px solid;
+}
+
+.linux {
+  width: 50%;
+  height: 200px;
+  order: 2;
+  border: 1px solid;
+}

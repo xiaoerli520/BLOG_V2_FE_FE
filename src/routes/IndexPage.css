@@ -1,0 +1,20 @@
+.normal {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.title {
+  order: 1;
+  font-size: 100px;
+}
+
+.bottom {
+  order: 2;
+}
+
+
